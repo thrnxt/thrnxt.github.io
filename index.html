@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.min.css">
+</head>
+
+<body>
+    <section class="promo">
+        <div class="container">
+            <header class="header">
+                <ul class="header__inner">
+                    <li><a href="index.html">Главная</a> </li>
+                    <li><a href="index2.html">Оклейка автомобилей</a></li>
+                    <li><a href="">Детейлинг автомобилей</a></li>
+                    <li><a href="#ourProjects__name">Галерея работ</a></li>
+                </ul>
+                <div class="burger" onclick="toggleMenu()">
+                    <div class="line line1"></div>
+                    <div class="line line2"></div>
+                    <div class="line line3"></div>
+                </div>
+            </header>
+            <div class="promo__company">
+                <div class="promo__name">CAR MUSC</div>
+                <div class="squares">
+                    <div class="diamond"></div>
+                    <div class="diamond"></div>
+                    <div class="diamond"></div>
+                    <div class="diamond"></div>
+                </div>
+                <span class="promo__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae orci urna amet
+                    penatibus.</span>
+                <a class="button">Наши услуги</a>
+            </div>
+
+        </div>
+        <div class="promo__info">
+            <div class="promo__wrapper">
+                <div class="promo__blocks promo__blocks1">
+                    <div class="promo__blocks__name">адрес:</div>
+                    <span class="promo__blocks__text">Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit </span>
+                </div>
+            </div>
+            <div class="promo__wrapper">
+                <div class="promo__blocks promo__blocks2">
+                    <div class="promo__blocks__name">телефон:</div>
+                    <span class="promo__blocks__text">8 (812) 123-45-67 <br> 8-911-123-45-67</span>
+                </div>
+            </div>
+            <div class="promo__wrapper">
+                <div class="promo__blocks promo__blocks3">
+                    <div class="promo__blocks__name">Режим работы:</div>
+                    <span class="promo__blocks__text">
+                        пн-пт : 10:00 - 20:00 <br>
+                        сб-вск : 12:00 - 20:00
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="attraction">
+        <div class="container">
+            <div class="attraction__info">
+                <div class="attractions__item">
+                    <h2 class="ourAchievements">наши достижения от кубка россии до чемпионатов мира</h2>
+                    <div class="squares">
+                        <div class="diamond"></div>
+                        <div class="diamond"></div>
+                        <div class="diamond"></div>
+                        <div class="diamond"></div>
+                    </div>
+                    <p class="attraction__info__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant
+                        tincidunt aliquam tincidunt
+                        pretium sodales. Tristique odio pellentesque et tincidunt posuere arcu purus lobortis risus.
+                        Urna, ut amet odio orci magnis praesent ultrices. Praesent malesuada lacus tellus tristique sit
+                        at. Sed viverra nulla nam arcu, non iaculis pretium, volutpat.
+                    </p>
+                </div>
+                <div class="attraction__box">
+                    <div class="attraction__blocks">
+                        <div class="attraction__block">
+                            <div class="attraction__number">#1</div>
+                            <p class="attraction__box__text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Quisque dui
+                            </p>
+                        </div>
+                        <div class="attraction__block">
+                            <div class="attraction__number">#6</div>
+                            <p class="attraction__box__text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Quisque dui
+                            </p>
+                        </div>
+                        <div class="attraction__block">
+                            <div class="attraction__number">#2</div>
+                            <p class="attraction__box__text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Quisque dui
+                            </p>
+                        </div>
+                        <div class="attraction__block">
+                            <div class="attraction__number">#1</div>
+                            <p class="attraction__box__text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Quisque dui
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="attraction__blocks">
+                        <div class="attraction__block">
+                            <div class="attraction__number">#4</div>
+                            <p class="attraction__box__text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Quisque dui
+                            </p>
+                        </div>
+                        <div class="attraction__block">
+                            <div class="attraction__number">#3</div>
+                            <p class="attraction__box__text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Quisque dui
+                            </p>
+                        </div>
+                        <div class="attraction__block">
+                            <div class="attraction__number">#1</div>
+                            <p class="attraction__box__text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Quisque dui
+                            </p>
+                        </div>
+                        <div class="attraction__block">
+                            <div class="attraction__number"><img src="/icons/cup.svg" alt=""></div>
+                            <p class="attraction__box__text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Quisque dui
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="carouselSection">
+        <div class="wrapper_for_carousel">
+            <div class="carousel" id="carousel1">
+                <div class="carousel__btnRedline carousel__btnRedline__left"></div>
+                <div class="carousel-btn carousel-btn-left" onclick="prevSlide('carousel1')">❮</div>
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <div class="carousel-img">
+                            <img src="/img/second_section 1.jpg" alt="">
+                            <div class="carousel__text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet
+                                    sapien a sit ante.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-img">
+                            <img src="/img/second_section2.jpg" alt="">
+                            <div class="carousel__text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet
+                                    sapien a sit </p>
+                            </div>
+                        </div>
+                        <div class="carousel-img">
+                            <img src="/img/second_section3.jpg" alt="">
+                            <div class="carousel__text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet
+                                    sapien a sit ante</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-img">
+                            <img src="/img/cls.jpg" alt="">
+                            <div class="carousel__text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet
+                                    sapien a sit ante.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-img">
+                            <img src="/img/e63.jpg" alt="">
+                            <div class="carousel__text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet
+                                    sapien a sit ante.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-img">
+                            <img src="/img/s222.jpg" alt="">
+                            <div class="carousel__text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet
+                                    sapien a sit ante.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel__btnRedline carousel__btnRedline__right"></div>
+                <div class="carousel-btn carousel-btn-right" onclick="nextSlide('carousel1')">❯</div>
+            </div>
+        </div>
+
+        <!-- for medium -->
+
+        <div class="wrapper_for_carousel wrapper_for_carousel-medium">
+            <div class="carousel carousel-medium" id="carousel3">
+                <div class="carousel__btnRedline carousel__btnRedline__left"></div>
+                <div class="carousel-btn carousel-btn-left" onclick="prevSlide('carousel3')">❮</div>
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+
+                        <div class="carousel-img">
+                            <img src="/img/second_section 1.jpg" alt="">
+                            <div class="carousel__text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet
+                                    sapien a sit ante.</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-img">
+                            <img src="/img/second_section2.jpg" alt="">
+                            <div class="carousel__text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet
+                                    sapien a sit </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-img">
+                            <img src="/img/cls.jpg" alt="">
+                            <div class="carousel__text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet
+                                    sapien a sit ante.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-img">
+                            <img src="/img/e63.jpg" alt="">
+                            <div class="carousel__text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet
+                                    sapien a sit ante.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="carousel-img">
+                            <img src="/img/e63.jpg" alt="">
+                            <div class="carousel__text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet
+                                    sapien a sit ante.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-img">
+                            <img src="/img/e63.jpg" alt="">
+                            <div class="carousel__text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet
+                                    sapien a sit ante.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel__btnRedline carousel__btnRedline__right"></div>
+                <div class="carousel-btn carousel-btn-right" onclick="nextSlide('carousel3')">❯</div>
+            </div>
+        </div>
+
+
+
+
+        <!-- for mini  -->
+        <div class="wrapper_for_carousel wrapper_for_carousel-mini">
+            <div class="carousel carousel-mini" id="carousel2">
+                <div class="carousel__btnRedline carousel__btnRedline__left"></div>
+                <div class="carousel-btn carousel-btn-left" onclick="prevSlide('carousel2')">❮</div>
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item">
+                        <div class="carousel-img">
+                            <img src="/img/second_section 1.jpg" alt="">
+                            <div class="carousel__text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet
+                                    sapien a sit ante.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="carousel-img">
+                            <img src="/img/cls.jpg" alt="">
+                            <div class="carousel__text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet
+                                    sapien a sit ante.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="carousel-img">
+                            <img src="/img/second_section3.jpg" alt="">
+                            <div class="carousel__text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet
+                                    sapien a sit ante</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel__btnRedline carousel__btnRedline__right"></div>
+                <div class="carousel-btn carousel-btn-right" onclick="nextSlide('carousel2')">❯</div>
+            </div>
+        </div>
+
+    </section>
+    <section class="service">
+        <div class="container">
+            <div class="service__all">
+                <div class="service_info">
+                    <div class="service__info__block">
+                        <div class="service__tag service__tag1">
+                            <img src="/icons/list.svg" alt="">
+                            <div class="service__name">материалы от лучших компаний</div>
+                        </div>
+                        <div class="service__descr">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium,
+                                rutrum
+                                est, molestie proin tristique duis sed. Morbi suspendisse amet nisl vestibulum risus.
+                                Quis
+                                pretium
+                            </p>
+                        </div>
+                    </div>
+                    <div class="squares">
+                        <div class="diamond"></div>
+                        <div class="diamond"></div>
+                        <div class="diamond"></div>
+                        <div class="diamond"></div>
+                    </div>
+                    <div class="service__info__block">
+                        <div class="service__tag">
+                            <img src="/icons/kerheer.svg" alt="">
+                            <div class="service__name">Опытные мастера</div>
+                        </div>
+                        <div class="service__descr">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et donec
+                                elementum egestas vitae ullamcorper. Amet volutpat ornare pharetra amet adipiscing orci,
+                                lectus
+                                aenean ultricies. Erat viverra eget blandit ornare. Molestie ipsum commodo faucibus
+                                rhoncus
+                            </p>
+                        </div>
+                    </div>
+                    <div class="squares">
+                        <div class="diamond"></div>
+                        <div class="diamond"></div>
+                        <div class="diamond"></div>
+                        <div class="diamond"></div>
+                    </div>
+                    <div class="service__info__block">
+                        <div class="service__tag">
+                            <img src="/icons/car-wash.svg" alt="">
+                            <div class="service__name">Гарантия на все виды работы</div>
+                        </div>
+                        <div class="service__descr">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+                                volutpat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider" id="slider2">
+                    <div class="slider__btnRedline slider__btnRedline__left"></div>
+                    <div class="slider-btn slider-btn-left" onclick="prevSlide('slider2')">❮</div>
+                    <div class="slider-inner">
+                        <div class="slider-item">
+                            <div class="slider-img">
+                                <img src="/img/third_section.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <div class="slider-img">
+                                <img src="/img/e63.jpg" alt="">
+                            </div>
+                        </div>
+                        <!-- Добавьте еще слайды, если нужно -->
+                    </div>
+                    <div class="slider__btnRedline slider__btnRedline__right"></div>
+                    <div class="slider-btn slider-btn-right" onclick="nextSlide('slider2')">❯</div>
+                    <div class="slider__text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+                            auctor nibh feugiat est.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="for-mini-display">
+        А ТАКЖЕ
+    </div>
+    <section class="service second">
+        <div class="container">
+            <div class="service__all service__all-right">
+                <div class="slider" id="slider1">
+                    <div class="slider__btnRedline slider__btnRedline__left"></div>
+                    <div class="slider-btn slider-btn-left" onclick="prevSlide('slider1')">❮</div>
+                    <div class="slider-inner">
+                        <div class="slider-item">
+                            <div class="slider-img">
+                                <img src="/img/four_section.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <div class="slider-img">
+                                <img src="/img/blackSupra.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__btnRedline slider__btnRedline__right"></div>
+                    <div class="slider-btn slider-btn-right" onclick="nextSlide('slider1')">❯</div>
+                    <div class="slider__text">
+                        <p>
+                            Neque metus vitae urna purus aliquam. Felis nullam pellentesque ac mi
+                            commodo, amet, porta in. Dui.
+                        </p>
+                    </div>
+                </div>
+                <div class="service_info service_info-second">
+                    <div class="service__info__block">
+                        <div class="service__tag service__tag1">
+                            <img src="/icons/sponge.svg" alt="">
+                            <div class="service__name">100% полироль axem</div>
+                        </div>
+                        <div class="service__descr">
+                            <p>
+                                Pharetra in bibendum id id. Sit maecenas sollicitudin est, hendrerit
+                                in malesuada. Eu, et lacus nisi mus sagittis, rhoncus est dictum. Gravida lectus urna,
+                                arcu,
+                                sodales. Ac.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="squares">
+                        <div class="diamond"></div>
+                        <div class="diamond"></div>
+                        <div class="diamond"></div>
+                        <div class="diamond"></div>
+                    </div>
+                    <div class="service__info__block">
+                        <div class="service__tag">
+                            <img src="/icons/list.svg" alt="">
+                            <div class="service__name">выполняем работу четко по тз</div>
+                        </div>
+                        <div class="service__descr">
+                            <p>
+                                Lorem nulla non nibh quis elit odio. Dui et ultricies duis mattis dictum et senectus
+                                nunc
+                                sodales. Tellus lorem risus etiam quam massa lobortis convallis laoreet. Nec.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="squares">
+                        <div class="diamond"></div>
+                        <div class="diamond"></div>
+                        <div class="diamond"></div>
+                        <div class="diamond"></div>
+                    </div>
+                    <div class="service__info__block">
+                        <div class="service__tag">
+                            <img src="/icons/kerheer.svg" alt="">
+                            <div class="service__name">у нас лучшие мастера</div>
+                        </div>
+                        <div class="service__descr">
+                            <p>
+                                Posuere nam sodales ullamcorper bibendum justo maecenas at. Ultricies bibendum morbi
+                                tempor
+                                vehicula. Ultrices erat maecenas in id maecenas sed ipsum scelerisque.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="maintenance">
+        <div class="container">
+            <h2 class="titleName">Наши услуги</h2>
+            <div class="squares">
+                <div class="diamond"></div>
+                <div class="diamond"></div>
+                <div class="diamond"></div>
+                <div class="diamond"></div>
+            </div>
+            <div class="buttons">
+                <button class="button-main active" id="button1"
+                    onclick="showBlock('okleikaBlock'); changeColor('button1') ">Оклейка</button>
+                <button class="button-main" id="button2"
+                    onclick="showBlock('deteylingBlock'); changeColor('button2')">Детейлинг</button>
+            </div>
+            <div id="okleikaBlock" class="service-block">
+
+                <div class="service">
+                    <div class="img-and-title">
+                        <div class="service-img">
+                            <img src="/icons/sponge.svg" alt="Фотография 1">
+                        </div>
+                        <div class="service-name" id="service1">Защитные пленки</div>
+                        <div class="service-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur
+                            ultrices pellentesque vulputate sit. Ut feugiat.</div>
+                    </div>
+                    <div class="details" style="display: none;">
+                        <p class="details-descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi,
+                            cupiditate!</p>
+                    </div>
+                    <button class="service-button" onclick="showDetails('service1')">Подробнее</button>
+                </div>
+
+                <div class="service">
+                    <div class="img-and-title">
+                        <div class="service-img">
+                            <img src="/icons/list.svg" alt="Фотография 2">
+                        </div>
+                        <div class="service-name" id="service2">Цветные пленки</div>
+                        <div class="service-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur
+                            ultrices pellentesque vulputate sit. Ut feugiat.</div>
+                    </div>
+                    <div class="details" style="display: none;">
+                        <p class="details-descr">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, quasi
+                            perspiciatis provident, ad rerum praesentium laudantium possimus eveniet tempora impedit
+                            animi labore iure quae? Architecto numquam dolor neque nisi dolores.</p>
+                    </div>
+                    <button class="service-button" onclick="showDetails('service2')">Подробнее</button>
+                </div>
+
+                <div class="service">
+                    <div class="img-and-title">
+                        <div class="service-img">
+                            <img src="/icons/kerheer.svg" alt="Фотография 3">
+                        </div>
+                        <div class="service-name" id="service3">дизайн</div>
+                        <div class="service-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur
+                            ultrices pellentesque vulputate sit. Ut feugiat.</div>
+                    </div>
+                    <div class="details" style="display: none;">
+                        <p class="details-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+                            tempore quidem asperiores molestiae consequuntur architecto! Vitae sint commodi qui eos.</p>
+                    </div>
+                    <button class="service-button" onclick="showDetails('service3')">Подробнее</button>
+                </div>
+
+                <div class="service">
+                    <div class="img-and-title">
+                        <div class="service-img">
+                            <img src="/icons/car-wash.svg" alt="Фотография 4">
+                        </div>
+                        <div class="service-name" id="service4">Оклейка салона</div>
+                        <div class="service-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur
+                            ultrices pellentesque vulputate sit. Ut feugiat.</div>
+                    </div>
+                    <div class="details" style="display: none;">
+                        <p class="details-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam,
+                            architecto consequatur illum sed similique porro perspiciatis dignissimos nihil debitis
+                            adipisci. Voluptas corrupti ut assumenda exercitationem corporis accusantium molestias, iste
+                            officia molestiae esse ipsam aliquid possimus non rem quae modi.</p>
+                    </div>
+                    <button class="service-button" onclick="showDetails('service4')">Подробнее</button>
+                </div>
+
+            </div>
+            <!-- div был тут -->
+
+            <div id="deteylingBlock" class="service-block" style="display: none;">
+                <div class="service">
+                    <div class="img-and-title">
+                        <div class="service-img">
+                            <img src="/icons/car-wash.svg" alt="Фотография 4">
+                        </div>
+                        <div class="service-name" id="service5">Оклейка салона</div>
+                        <div class="service-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur
+                            ultrices pellentesque vulputate sit. Ut feugiat.</div>
+                    </div>
+                    <div class="details" style="display: none;">
+                        <p class="details-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam,
+                            architecto consequatur illum sed similique porro perspiciatis dignissimos nihil debitis
+                            adipisci. Voluptas corrupti ut assumenda exercitationem corporis accusantium molestias, iste
+                            officia molestiae esse ipsam aliquid possimus non rem quae modi.</p>
+                    </div>
+                    <button class="service-button" onclick="showDetails('service5')">Подробнее</button>
+                </div>
+                <div class="service">
+                    <div class="img-and-title">
+                        <div class="service-img">
+                            <img src="/icons/car-wash.svg" alt="Фотография 4">
+                        </div>
+                        <div class="service-name" id="service6">Оклейка салона</div>
+                        <div class="service-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur
+                            ultrices pellentesque vulputate sit. Ut feugiat.</div>
+                    </div>
+                    <div class="details" style="display: none;">
+                        <p class="details-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam,
+                            architecto consequatur illum sed similique porro perspiciatis dignissimos nihil debitis
+                            adipisci. Voluptas corrupti ut assumenda exercitationem corporis accusantium molestias, iste
+                            officia molestiae esse ipsam aliquid possimus non rem quae modi.</p>
+                    </div>
+                    <button class="service-button" onclick="showDetails('service6')">Подробнее</button>
+                </div>
+                <div class="service">
+                    <div class="img-and-title">
+                        <div class="service-img">
+                            <img src="/icons/car-wash.svg" alt="Фотография 4">
+                        </div>
+                        <div class="service-name" id="service7">Оклейка салона</div>
+                        <div class="service-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur
+                            ultrices pellentesque vulputate sit. Ut feugiat.</div>
+                    </div>
+                    <div class="details" style="display: none;">
+                        <p class="details-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam,
+                            architecto consequatur illum sed similique porro perspiciatis dignissimos nihil debitis
+                            adipisci. Voluptas corrupti ut assumenda exercitationem corporis accusantium molestias, iste
+                            officia molestiae esse ipsam aliquid possimus non rem quae modi.</p>
+                    </div>
+                    <button class="service-button" onclick="showDetails('service7')">Подробнее</button>
+                </div>
+                <div class="service">
+                    <div class="img-and-title">
+                        <div class="service-img">
+                            <img src="/icons/car-wash.svg" alt="Фотография 4">
+                        </div>
+                        <div class="service-name" id="service8">Оклейка салона</div>
+                        <div class="service-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur
+                            ultrices pellentesque vulputate sit. Ut feugiat.</div>
+                    </div>
+                    <div class="details" style="display: none;">
+                        <p class="details-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam,
+                            architecto consequatur illum sed similique porro perspiciatis dignissimos nihil debitis
+                            adipisci. Voluptas corrupti ut assumenda exercitationem corporis accusantium molestias, iste
+                            officia molestiae esse ipsam aliquid possimus non rem quae modi.</p>
+                    </div>
+                    <button class="service-button" onclick="showDetails('service8')">Подробнее</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ourProjects">
+        <h2 class="titleName" id="ourProjects__name">Наши работы</h2>
+        <div class="squares">
+            <div class="diamond"></div>
+            <div class="diamond"></div>
+            <div class="diamond"></div>
+            <div class="diamond"></div>
+        </div>
+        <div class="ourProjects__images">
+            <div class="ourProjects__images__line">
+                <div class="ourProjects__images__car">
+                    <div class="ourProjects__images__car__audi"></div>
+                </div>
+
+                <div class="ourProjects__images__car">
+                    <div class="ourProjects__images__car__supra"></div>
+                </div>
+
+                <div class="ourProjects__images__car">
+                    <div class="ourProjects__images__car__brz"></div>
+                </div>
+
+                <div class="ourProjects__images__car">
+                    <div class="ourProjects__images__car__svj"></div>
+                </div>
+
+                <div class="ourProjects__images__car">
+                    <div class="ourProjects__images__car__blackSupra"></div>
+                </div>
+
+                <div class="ourProjects__images__car">
+                    <div class="ourProjects__images__car__bmw"></div>
+                </div>
+
+            </div>
+            <div class="ourProjects__images__line">
+                <div class="ourProjects__images__car"></div>
+                <div class="ourProjects__images__car"></div>
+                <div class="ourProjects__images__car"></div>
+                <div class="ourProjects__images__car"></div>
+                <div class="ourProjects__images__car"></div>
+                <div class="ourProjects__images__car"></div>
+            </div>
+            <div class="ourProjects__images__line">
+                <div class="ourProjects__images__car"></div>
+                <div class="ourProjects__images__car"></div>
+                <div class="ourProjects__images__car"></div>
+                <div class="ourProjects__images__car"></div>
+                <div class="ourProjects__images__car"></div>
+                <div class="ourProjects__images__car"></div>
+            </div>
+        </div>
+    </section>
+    <section class="FAQ">
+        <div class="container">
+            <h2 class="titleName" id="ourProjects__name">ответим на любой вопрос</h2>
+            <div class="squares">
+                <div class="diamond"></div>
+                <div class="diamond"></div>
+                <div class="diamond"></div>
+                <div class="diamond"></div>
+            </div>
+            <div class="FAQ__inner">
+                <div class="FAQ__information">
+                    <input class="FAQ__name" type="name" placeholder="ИМЯ">
+                    <input class="FAQ__phone" type="phone" placeholder="ТЕЛЕФОН">
+                </div>
+                <div class="FAQ__feedback">
+                    <textarea class="FAQ__feedback__text" name="" id=""
+                        placeholder="ВОПРОС ПО ДИЗАЙНУ, ТЮНИНГУ И ДР."></textarea>
+                    <div class="FAQ__networks">
+                        <a href="https://t.me/exthr" class="FAQ__telegram" target="_blank"><img
+                                src="/icons/telegram.svg" alt=""></a>
+                        <a href="https://youtube.com/shorts/iXFg0lXK0iA?si=BUZ7VLR-Kgr21Do3" class="FAQ__youthube"
+                            target="_blank"><img src="/icons/youtube.svg" alt=""></a>
+                        <a href="https://vk.com/taha_evloev" class="FAQ__vk" target="_blank"><img src="/icons/vk.svg"
+                                alt=""></a>
+                    </div>
+                </div>
+                <div class="FAQ__data">
+                    <button class="FAQ__btn">отправить</button>
+                    <div class="FAQ__data__descr">
+                        <div class="FAQ__map">
+                            <div class="FAQ__map__img"><img src="/icons/map.svg" alt=""></div>
+                            <div class="FAQ__map__text">Eu faucibus et rutrum fringilla orci nunc</div>
+                        </div>
+                        <div class="FAQ__data__contacts">
+                            <div class="FAQ__data__phone">
+                                <div class="FAQ__phone__img"><img src="/icons/phone.svg" alt=""></div>
+                                <div class="FAQ__phone__number">
+                                    <a href="tel:+77773449889">8 (777) 344-98-89</a>
+                                </div>
+                            </div>
+                            <div class="FAQ__data__mail">
+                                <div class="FAQ__mail__img"><img src="/icons/mail.svg" alt=""></div>
+                                <div class="FAQ__mail__addres">
+                                    <a href="mailto:evloev.taha@mail.ru">test@test.ru</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__line"></div>
+        <div class="container">
+            <div class="footer__info">
+                <div class="footer__descr">2022 © Est et viverra pellentesque pharetra lorem proin in. Vitae magna at
+                    tempus
+                    commodo.</div>
+                <div class="footer__menu">
+                    <ul>
+                        <li><a href="">Главная</a> </li>
+                        <li><a href="">Оклейка автомобилей</a></li>
+                        <li><a href="">Детейлинг автомобилей</a></li>
+                        <li><a href="#ourProjects__name">Галерея работ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1113 @@
+@media (max-width: 1558px){
+    .promo__company {
+        margin-top: 140px;
+    }
+    .salam{
+        display: none;
+    }
+    .ourProjects .ourProjects__images__car {
+        height: 230px;
+    }
+    .attraction__info .attractions__item .squares {
+        margin-top: 0px;
+    }
+    .attraction__info__text{
+        width: 526px;
+        height: 145px;
+        font-size: 29px;
+        text-align: center;
+        line-height: 29px;
+        margin-top: 60px;
+    }
+    .attraction__info .attractions__item .ourAchievements {
+        font-size: 47px;
+        line-height: 55px;
+        height: 110px;
+    }
+    .wrapper_for_carousel{
+        display: none;
+        &-medium{
+            display: block;
+        }
+    }
+    .carouselSection{
+        margin: 0 auto;
+        margin-top: 90px;
+
+    }
+    .promo__name{
+        font-size: 120px;
+    }
+    .promo__descr {
+        font-size: 36px;
+    }
+    .attraction__info{
+        display: block;
+    }
+    .attraction__info{
+        .attractions__item{
+            .ourAchievements{
+                margin: 0 auto;
+                text-align: center;
+            }
+            .squares{
+                margin: 0 auto;
+                margin-top: 40px;
+            }
+            .attraction__info__text{
+                margin: 0 auto;
+                margin-top: 40px;
+            }
+            
+        }
+        .attraction__box{
+            width: 640px;
+            margin: 0 auto;
+            margin-top: 80px;
+        }
+    }
+    .ourProjects .ourProjects__images__car {
+        height: 180px;
+    }
+    .attraction__block {
+        padding: 21px 21px 30px 20px;
+    }
+    .service__descr {
+        margin-top: 40px;
+    }
+}
+@media (max-width: 1440px){
+    .container{
+        width: 992px;
+    }
+    .service_info{
+        width: 450px;
+    }
+    .service .service__info__block {
+        width: 450px;
+    }
+    .service__tag .service__name {
+        font-size: 28px;
+    }
+    .service__descr {
+        width: 450px;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    
+    .slider{
+        width: 500px;
+    }
+    .slider__text {
+        width: 302px;
+        font-size: 17px;
+        line-height: 21px;
+    }
+    .slider-item .slider-img {
+        height: 430px;
+    }
+    .slider {
+        height: 535px;
+    }
+    .maintenance {
+        .service-block{
+            .service {
+                width: 230px;
+                height: 380px;
+                &__second{
+                    height: 350px;
+                }
+            }
+            .service-descr {
+                font-size: 15px;
+                line-height: 22px;
+                width: 200px;
+                height: 88px;
+            }
+            .service-button {
+                bottom: 25px;
+            }
+            .details-descr {
+                font-size: 15px;
+                line-height: 20px;
+                text-align: center;
+            }
+        }
+    }
+    .footer__info{
+        flex-direction: column;
+    }
+    .footer__descr{
+        width: 592px;
+        margin: 0 auto;
+        margin-top: 20px;
+        order: 2;
+    }
+    .footer__menu{
+        margin: 0 auto;
+    }
+    .service__descr {
+        margin-top: 0px;
+        width: 420px;
+    }
+    .service__descr__inner {
+        font-size: 29px;
+        line-height: 40px;
+    }
+    .service__text {
+        width: 420px;
+        height: 90px;
+    }
+    .service__company {
+        justify-content: start;
+    }
+    .service__company__inner{
+        &:nth-child(1){
+            padding-right: 80px;
+        }
+    }
+    .costProject .cost-table .cost-table__descr__class {
+        font-family: ReformaGroteskDemiC;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 32px;
+    }
+    .service__descr {
+        margin-top: 40px;
+    }
+
+}
+@media (max-width: 1110px){
+    .container{
+        width: 767px;
+    }
+    .wrapper_for_carousel{
+        display: none;
+        &-mini{
+            display: block;
+        }
+    }
+    .carouselSection{
+        width: 676px;
+    }
+    .ourProjects .ourProjects__images__car {
+        height: 155px;
+    }
+
+    ///
+    /// 
+    
+    .service__tag .service__name {
+        font-size: 18px;
+    }
+    .service__descr {
+        width: 302px;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    .service .squares {
+        margin-top: 25px;
+    }
+    .service .service__info__block {
+        width: 345px;
+        margin-top: 25px;
+    }
+    
+    .slider__text {
+        width: 248px;
+        font-size: 17px;
+    }
+    
+    .slider-img img {
+        width: 420px;
+    }
+    .slider__text {
+        width: 215px;
+        font-size: 13px;
+    }
+    .service__tag .service__name {
+        margin-left: 13px;
+    }
+    .slider-item .slider-img {
+        height: 370px;
+    }
+    .slider {
+        height: 480px;
+    }
+
+    .service__all-right{
+        .service__tag1 {
+            text-align: right; 
+        }
+    
+        .service__tag1 img {
+            display: block;
+            margin-left: auto;
+            margin-right: 0;
+        }
+    }
+    .service_info {
+        width: 340px;
+        &-second{
+            width: 290px;
+            margin-left: 50px;
+        }
+    }
+    .maintenance{
+        .service-block{
+            
+            .service {
+                width: 180px;
+                height: 340px;
+                &__second{
+                    height: 285px;
+                }
+                &-name{
+                    font-size: 20px;
+                }
+                &-button{
+                    bottom: 30px;
+                }
+                &-descr {
+                    font-size: 13px;
+                    line-height: 17px;
+                    width: 165px;
+                }
+                &-img{
+                    padding-top: 23px;
+                    font-size: 20px;
+                }
+            }
+            .details-descr {
+                font-size: 14px;
+                line-height: 15px;
+                width: 160px;
+            }
+            
+        }
+    } 
+    .service__descr {
+        width: 280px;
+    }
+    .service__descr__inner {
+        font-size: 21px;
+        line-height: 35px;
+    }
+    .service__text {
+        width: 265px;
+        height: 135px;
+        font-size: 23px;
+        line-height: 29px;
+    }
+    .service__company__inner{
+        padding-left: 10px;
+    }
+    .service__company__inner:nth-child(1) {
+        padding-right: 0px;
+        padding-bottom: 40px;
+    }
+    .service_info {
+        width: 280px;
+    }
+    .service__company {
+        display: block;
+        &:nth-child(2){
+            display: none;
+        }
+    }
+    .service__companyes{
+        text-align: center;
+    }
+
+    .costProject .cost-table__title {
+        height: 98px;
+        font-size: 24px;
+    }
+    .costProject .cost-table .cost-table__descr__class {
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .costProject .cost-table .cost-table__descr__money {
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 18px;
+    }
+
+}
+@media (max-width: 992px){
+    .container{
+        width: 576px;
+    }
+    .second{
+        margin-top: 100px;
+    }
+    .titleName {
+        width: 100%;
+    }
+    .for-mini-display{
+        margin: 0 auto;
+        margin-top: 100px;
+        display: block;
+        text-align: center;
+        height: 73px;
+        font-family: ReformaGroteskDemiC;
+        font-size: 52px;
+        font-weight: 600;
+        line-height: 73px;
+        letter-spacing: .05em;
+    }
+    .promo{
+        min-height: 900px;
+    }
+    .promo__company {
+        margin-top: 75px;
+    }
+    .promo .header .burger{
+        position: absolute;
+        right: 6%;
+    } 
+    .attraction__info .attractions__item .ourAchievements {
+        width: 100%;
+        font-size: 42px;
+    }
+    .attraction__info__text {
+        font-size: 24px;
+    }
+    .service{
+        &_info{
+            margin: 0 auto;
+            width: 100%;
+        }
+        &__descr{
+            width: 100%;
+            font-size: 20px;
+            margin-top: 25px;
+            p{
+                width: 100%;
+            }
+        }
+    }
+    .service .service__info__block {
+        margin-top: 40px;
+        min-height: 0px; 
+        width: 100%;
+    }
+    .service .squares {
+        margin-top: 40px;
+    }
+    .service__tag .service__name {
+        font-size: 25px;
+    }
+    .service__all-right .service__tag1 img {
+        margin-left: 0px;
+    }
+    .service__all{
+        display: flex;
+        flex-direction: column;
+    }
+    .slider{
+        margin-top: 65px;
+        width: 100%;
+        height: 550px;
+        &-img{
+            width: 576px;
+        }
+        &__all{
+            display: block;
+        }
+        &__text{
+            width: 380px;
+            font-size: 16px;
+        }
+        
+    }
+    
+    #slider1{
+        order: 2;
+    }
+    .slider-item .slider-img{
+        height: 433px;
+    }
+    .service-block{
+        flex-wrap: wrap;
+        width: 400px;
+        margin: 0 auto;
+    }
+    .service{
+        &:nth-child(3){
+            margin-top: 60px;
+        }
+        &:nth-child(4){
+            margin-top: 60px;
+        }
+    }
+    .ourProjects .ourProjects__images__car {
+        height: 126px;
+    }
+    .service__second{
+        margin-top:110px;
+    }
+    .service__descr__inner{
+        font-size: 26px;
+    }
+    .service__descr {
+        width: 430px;
+        margin-top: 25px;
+    }
+    .service__text {
+        text-align: center;
+        width: 100%;
+        font-size: 27px;
+        height: 90px;
+    }
+    .service__company {
+        justify-content: space-around;
+        display: flex;
+    }
+    .service__company__inner:nth-child(1) {
+        padding-bottom: 0px;
+    }
+    .costProject .cost-table .cost-table__descr__class {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+@media (max-width: 767px){
+    .promo .header ul {
+        display: none;
+    }
+    .promo__company {
+        margin-top: 0px;
+        padding-top: 70px;
+    }
+    .open {
+        z-index: 4;
+        display: block !important;
+        position: absolute;
+        background:rgba(0, 0, 0, 0.979);
+        width: 65%;
+        height:30%;
+        top: 0;
+        right: 0;
+        animation: burgerAnimation 0.4s;
+    }
+    
+    .burger {
+        display: block !important;
+        cursor: pointer;
+    }
+
+    .header{
+        position: fixed;
+        top: 0;
+        z-index: 5;
+        right: 0;
+    }
+    .header__inner {
+        padding-top: 120px;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        right: 0;
+        height: 2000%;
+        width: 70%;
+        z-index: 3;
+        background:rgba(19, 19, 19, 0.986);
+    }
+
+    .header__inner.show {
+        display: flex;
+    }
+
+    .burger {
+        top: 13px;
+        display: block;
+        z-index: 4;
+    }
+    
+
+    .burger.active .line1 {
+        transform: rotate(-45deg) translate(-7px, 7px);
+    }
+
+    .burger.active .line2 {
+        opacity: 0;
+    }
+
+    .burger.active .line3 {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+    
+    .header__inner.open li {
+        margin-top: 40px;
+    }
+    .promo .header ul li {
+        margin-left: 0px;
+    }
+    .promo{
+        min-height: 800px;
+        &__name{
+            font-size: 90px;
+            height: 170px;
+            &2{
+                font-size: 56px;
+                line-height: 61px;
+            }
+        }
+        &__descr{
+            font-size: 32px;
+        width: 365px;
+        }
+        &__wrapper{
+            min-height: 162px;
+        }
+        &__blocks{
+            margin-top: 20px;
+            &__text{
+                font-size: 19px;
+            }
+        }
+    }
+    .attraction__info .attractions__item .ourAchievements {
+        width: 70%;
+        font-size: 33px;
+    }
+    .attraction__info__text {
+        width: 400px;
+        font-size: 21px;
+    }
+    .attraction{
+        &__block{
+            min-height: 130px;
+            &s{
+                width: 250px;
+            }
+        }
+        &__box__text{
+            width: 210px;
+            min-height: 62px;
+        }
+        &__number {
+            font-size: 39px;
+        }
+    }
+    .attraction__info .attraction__box {
+        width: 500px;
+    }
+    
+    
+    .wrapper_for_carousel-mini {
+        width: 576px;
+    }
+    .carousel-item .carousel-img img {
+        width: 330px;
+        height: 278px;
+    }
+    .FAQ__inner {
+        width: 576px;
+    }
+    .footer__descr {
+        width: 576px;
+    }    
+    .footer__descr {
+        text-align: center;
+        font-size: 14px;
+    }
+    
+    
+    
+    .carouselSection {
+        width: 576px;
+    }
+    .carousel-mini {
+        width: 370px;
+        height: 330px;
+    }
+    .wrapper_for_carousel-mini {
+        width: 565px;
+    }
+    .carousel-item .carousel-img {
+        width: 330px;
+        height: 340px;
+    }
+    .carousel-item .carousel-img .carousel__text {
+        bottom: 35px;
+        width: 286px; 
+        height: 65px;
+    }
+    .carousel-item .carousel-img .carousel__text p {
+        display: block;
+        font-size: 15px;
+        line-height: 22px;
+        width: 235px;
+    }
+    
+
+    .service_info {
+        width: 70%;
+    }
+    .slider {
+        margin: 0 auto;
+        margin-top: 65px;
+        width: 70%;
+        height: 470px;
+        &__text{
+            width: 200px;
+        font-size: 15px;
+        }
+    }
+    .slider-item .slider-img {
+        height: 355px;
+    }
+    .for-mini-display {
+        font-size: 40px;
+    }
+
+    .FAQ{
+        &__inner {
+            width: 450px;
+        }
+        &__feedback__text {
+            width: 375px;
+        }
+        &__data__descr {
+            width: 245px;
+        }
+        &__btn {
+            font-size: 21px;
+        }
+        &__map__text {
+            font-size: 13px;
+        }
+    }
+
+
+    .ourProjects__images__line:nth-child(1){
+        .ourProjects__images__car{
+            &:nth-child(4){
+                display: none;
+            }
+            &:nth-child(5){
+                display: none;
+            }
+            &:nth-child(6){
+                display: none;
+            }
+        }
+    }
+    .ourProjects__images__line:nth-child(2){
+        .ourProjects__images__car{
+            &:nth-child(1){
+                display: none;
+            }
+            &:nth-child(2){
+                display: none;
+            }
+            &:nth-child(3){
+                display: none;
+            }
+        }
+    }
+    .ourProjects__images__line:nth-child(3){
+        .ourProjects__images__car{
+            &:nth-child(4){
+                display: none;
+            }
+            &:nth-child(5){
+                display: none;
+            }
+            &:nth-child(6){
+                display: none;
+            }
+        }
+    }
+    .ourProjects .ourProjects__images__car {
+        width: 216px;
+        height: 180px;
+    }
+
+    .FAQ__name, .FAQ__phone {
+        width: 215px;
+    }
+    .FAQ__data__contacts .FAQ__data__mail {
+        margin-left: 15px;
+    }
+    .FAQ__data__contacts {
+        margin-left: 0px;
+    }
+    .FAQ__data__contacts .FAQ__data__phone .FAQ__phone__number { 
+        font-size: 13px;
+    }
+    .FAQ__data__contacts .FAQ__data__mail .FAQ__mail__addres {
+        font-size: 13px;
+    }
+    .FAQ{
+        .titleName {
+            font-size: 36px;
+        }
+    }
+    .footer__descr {
+        font-size: 12px;
+    }
+    .promo .header {
+        height: 15px;
+        background:rgba(27, 27, 27, 0.548);
+        width: 100%;
+    }
+    .service__descr__inner {
+        font-size: 25px;
+        line-height: 36px;
+    }
+    .service__text {
+        font-size: 20px;
+        padding-bottom: 20px;
+        line-height: 27px;
+        width: 400px;
+    }    
+    .maintenance .mainTitle {
+        font-size: 35px;
+        line-height: 57px;
+        width: 365px;
+    }
+    .service__section{
+        margin-top: 60px;
+    }
+    .service__second{
+        margin-top: 65px;
+    }
+    .service__descr {
+        width: 375px;
+    }
+    .service__descr__inner {
+        font-size: 23px;
+        line-height: 33px;
+    }
+
+    .costProject .titleName {
+        width: 450px;
+        font-size: 43px;
+    }
+}
+@keyframes burgerAnimation {
+    from{opacity: 0}
+    to{opacity: 1}
+}
+@media (max-width: 576px){
+
+    .container{
+        width: 365px;
+    }
+    .promo{
+        &__name {
+            width: 365px;
+            font-size: 78px;
+        }
+        &__descr {
+            font-size: 24px;
+            width: 240px;
+            line-height: 30px;
+        }
+        &__blocks__text {
+            font-size: 15px;
+            line-height: 25px;
+        }
+    }
+
+    
+    .attraction {
+        margin-top: 150px;
+        &__info .attraction__box {
+            width: 365px;
+        }
+        &__info .attractions__item .ourAchievements {
+            font-size: 22px;
+            line-height: 35px;
+        }
+        &__info .attractions__item .squares {
+            transform: translateX(-10%);
+        }
+        &__info__text {
+            width: 280px;
+            font-size: 18px;
+            line-height: 25px;
+        }
+        &__block {
+            padding: 16px 16px 25px 15px;
+        }
+        &__blocks {
+            width: 182px;
+        }
+        &__box__text {
+            width: 140px;
+            font-size: 12px;
+            line-height: 19px;
+        }
+
+    }
+
+    .carouselSection {
+        width: 365px;
+    }
+    .wrapper_for_carousel-mini {
+        width: 365px;
+    }
+    .wrapper_for_carousel {
+        height: 350px;
+    }
+    .carousel{
+        &__btnRedline {
+            width: 35px;
+            height: 35px;
+            top: 32%;
+        }
+        &-btn {
+            top: 38.6%;
+            font-size: 20px;
+            width: 40px;
+            height: 35px;
+            &-left {
+                left: 19.29px;
+                z-index: 1;
+            }
+        }
+    }
+    .carousel-item .carousel-img {
+        .carousel__text {
+            p {
+                font-size: 12px;
+                line-height: 18px;
+                width: 185px;
+            }
+        }
+    }
+
+    .service__tag .service__name {
+        line-height: 24px;
+        font-size: 20px;
+    }
+    .service__descr {
+        font-size: 16px;
+    }
+    .slider{
+        width: 80%;
+    }
+    .slider-item .slider-img {
+        height: 280px;
+    }
+    .slider {
+        height: 375px;
+    }
+    .slider__text {
+        width: 115px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .slider-btn {
+        width: 40px;
+        height: 46px;
+    }
+    .slider__btnRedline {
+        width: 40px;
+        height: 40px;
+    }
+
+    .for-mini-display {
+        margin-top: 60px
+    }
+    .second {
+        margin-top: 60px;
+    }
+    .ourProjects {
+        margin-top: 150px;
+    }
+    .titleName {
+        font-size: 40px;
+    }
+    .maintenance .buttons .button-main {
+        width: 140px;
+        height: 57px;
+        font-size: 23px;
+        margin-top: 50px;
+    }    
+    .maintenance .buttons {
+        width: 365px;
+    }
+    .maintenance .squares {
+        margin-top: 30px
+    }
+    .service-block {
+        width: 180px;
+    }
+    .service {
+        margin-top: 60px;
+    }
+    .maintenance .service-block {
+        margin-top: 60px;
+    }
+    .ourProjects .ourProjects__images__car {
+        height: 130px;
+    }
+
+    .FAQ .titleName {
+        font-size: 30px;
+    }
+    .FAQ__inner {
+        width: 340px;
+    }
+    .FAQ__name, .FAQ__phone {
+        width: 160px;
+    }
+    .FAQ__feedback__text {
+        width: 280px;
+    }
+    .FAQ__data__descr {
+        width: 145px;
+    }
+    .FAQ__data__contacts {
+        display: flex;
+        margin-left: 15px;
+        flex-direction: column;
+    }
+    .FAQ__data__contacts .FAQ__data__mail {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .FAQ__map__text {
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    .footer{
+        &__descr {
+            width: 320px;
+        }
+        &__menu {
+            min-width: 360px;
+        }
+        &__menu ul li {
+            display: none;
+        }
+    }
+    .service__tag .service__name {
+        width: 177px;
+    }
+
+    .slider-img {
+        width: 365px;
+    }
+    .promo .header {
+        height: 15px;
+        background:rgba(27, 27, 27, 0.548);
+    }
+    .promo__blocks__text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .attraction__info .attractions__item .ourAchievements {
+        font-size: 21px;
+        line-height: 30px;
+    }
+    .carousel-item .carousel-img img {
+        width: 290px;
+        height: 245px;
+    }
+    .carousel-item .carousel-img {
+        height: 350px;
+        width: 306px;
+    }
+    .carousel-mini {
+        width: 345px;
+        height: 350px;
+    }
+    .wrapper_for_carousel {
+        height: 400px;
+    }
+    .carousel-item .carousel-img .carousel__text {
+        bottom: 33px;
+        width: 213px;
+        height: 53px;
+        left: 48px;
+    }
+    .carousel-item .carousel-img .carousel__text p {
+        font-size: 13px;
+        width: 206px;
+    }
+    .carousel-btn {
+        top: 77.6%;
+    }
+    .carousel__btnRedline {
+        top: 72%;
+    }
+    
+    .promo__name2 {
+        font-size: 42px;
+        line-height: 45px;
+        width: 365px;
+        padding-top: 110px;
+    }
+    .service__descr__inner {
+        font-size: 21px;
+        line-height: 31px;
+    }
+    .service__descr {
+        width: 250px;
+    }
+    .service__text {
+        width: 250px;
+    }
+    .service__company {
+        display: block;
+    }
+    .service__company__inner:nth-child(2) {
+        margin-top: 20px;
+    }
+
+    .maintenance .mainTitle {
+        font-size: 29px;
+        line-height: 43px;
+        height: 125px;
+    }
+    .maintenance .service-block {
+        margin-top: 40px;
+    }
+    .costProject .titleName {
+        width: 365px;
+        font-size: 29px;
+        line-height: 50px;
+        height: 100px;
+    }
+    .costProject .cost-table__title {
+        height: 74px;
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .costProject .cost-table .cost-table__descr__class, .costProject .cost-table .cost-table__descr__money {
+        height: 53px;
+    }
+    .costProject .cost-table .cost-table__descr__class {
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .costProject .cost-table .cost-table__descr__money {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 16px;
+    }
+    .costProject .cost-table .cost-table__carName, .costProject .cost-table .cost-table__spectroll, .costProject .cost-table .cost-table__hexis, .costProject .cost-table .cost-table__suntek, .costProject .cost-table .cost-table__llumar {
+        width: 62px;
+    }
+    .costProject .cost-table .cost-table__descr__class, .costProject .cost-table .cost-table__descr__money {
+        width: 62px;
+    }
+    .costProject .cost-table .cost-table__descr__class {
+        font-size: 11px;
+    }
+}
+
+
+    
